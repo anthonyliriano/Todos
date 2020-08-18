@@ -1,0 +1,57 @@
+.add-todo{
+    background-color: whitesmoke;
+}
+
+.add-todo > input{
+    height: 60px;
+    font-size: 1.2rem;
+    border: 1px solid silver;
+    background-color: white;
+}
+
+.todo-desc{
+    background-color: whitesmoke;
+    border-bottom: 1px solid silver;
+}
+
+.todo-completed{
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+input.todo-edit{
+    background-color: whitesmoke;
+    border: none;
+    width: 75%;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+
+span.float-right{
+    font-size: .85rem;
+    opacity: .5;
+}
+
+
+.form-control:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border-color: silver;
+}
+  
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
